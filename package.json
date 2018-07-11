@@ -1,6 +1,6 @@
 {
-  "name": "Gradient-Carousel-Button",
-  "version": "0.0.0",
+  "name": "react-gradient-carousel",
+  "version": "0.0.1",
   "description":
     "A custom React button that plays a customizable gradient animation.",
   "main": "lib/index.js",
@@ -11,7 +11,7 @@
     "docs": "webpack-dev-server --mode development",
     "docs:prod": "webpack --mode production"
   },
-  "keywords": [],
+  "keywords": ["gradient", "ombre", "button", "react", "component", "custom", "animation", "shimmer", "shiny", "carousel"],
   "license": "MIT",
   "peerDependencies": {
     "react": "^15.3.0 || ^16.2.0",
@@ -38,6 +38,6 @@
   "author": "Philip Gingerich",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/horseeyephil/ReactGradientCarousel"
   }
 }
