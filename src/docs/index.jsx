@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
-import Glow from "../../lib";
+import Glow from "../lib";
 import "./styles.css";
 
 function Demo() {
