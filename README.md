@@ -1,5 +1,5 @@
 # React Gradient Carousel 
-This package is for a custom React button component that animates an attractive gradient shimmer animation upon hover. 
+This package is for a custom React button component that animates an attractive gradient shimmer animation upon hover or clicking. 
 
 The button takes an onClick prop as well as props for custom styling.
 
@@ -13,6 +13,7 @@ The button takes an onClick prop as well as props for custom styling.
 
 **customStyling**: An style object to provide for custom CSS attributes for the button. If not provided, a default setting will be used. Note: a borderColor property may be specified in order to overwrite the colorTheme prop and provide a border that is different than the gradient theme
 
+**clickMode**: A number to specify the amount of iterations to animate once button is clicked. The button will no longer play on hover with this prop.
 
 ```javascript
 
@@ -22,11 +23,13 @@ The button takes an onClick prop as well as props for custom styling.
         onClick = {_=>{console.log('This is a click handler!')}} 
         colorTheme = 'paleturquoise' //this is a named color
         gradientCenter = '#567bcd9e' //8 digit hex with alpha
+        className = 'shiny button',
         customStyling = {
             position: 'absolute',
             borderRadius: 20,
             borderStyle: 'dotted'
         }
+        clickMode = '8'
         >Here is a custom button and all its props!
     </GradientCarouselButton>
 ```
