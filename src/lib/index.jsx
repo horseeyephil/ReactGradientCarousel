@@ -41,7 +41,7 @@ export default class Glow extends React.Component{
 
     handleClick(evt){
         if(this.props.clickMode) this.shiny()
-        if(this.props.handleClick) this.props.handleClick(evt)
+        if(this.props.onClick) this.props.onClick(evt)
     }
 
     componentDidMount(){
